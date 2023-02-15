@@ -125,10 +125,6 @@ class whatsapps:
 
                 except:
                     pass
-                
-                    
-            
-
 
 if __name__ == "__main__":
     w = whatsapps()
