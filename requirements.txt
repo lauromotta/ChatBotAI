@@ -1,0 +1,24 @@
+# Web framework — servidor do webhook
+fastapi>=0.110.0
+
+# Servidor ASGI assíncrono
+uvicorn[standard]>=0.29.0
+
+# Cliente HTTP assíncrono (chamadas para Evolution API)
+httpx>=0.27.0
+
+# Google Gemini AI
+google-generativeai>=0.7.0
+
+# Variáveis de ambiente
+python-dotenv>=1.0.0
+
+# Logging profissional com cores, rotação de arquivos e filtros
+loguru>=0.7.0
+
+# Validação e serialização de dados
+pydantic>=2.6.0
+
+# Testes
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
